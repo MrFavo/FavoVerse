@@ -1,0 +1,37 @@
+@favoverse/shared/
+├── package.json
+├── tsconfig.json
+├── README.md
+│
+├── src/
+│   ├── constants/
+│   │   ├── api.ts
+│   │   ├── errors.ts
+│   │   └── index.ts
+│   │
+│   ├── types/
+│   │   ├── user.ts
+│   │   ├── verification.ts
+│   │   └── index.ts
+│   │
+│   ├── sdk/
+│   │   ├── auth.ts
+│   │   ├── verification.ts
+│   │   └── index.ts
+│   │
+│   └── utils/
+│       ├── validation.ts
+│       ├── formatting.ts
+│       └── index.ts
+│
+├── dist/           // Скомпилированные файлы
+│   ├── constants/
+│   ├── types/
+│   ├── sdk/
+│   └── utils/
+│
+└── tests/          // Тесты для shared компонентов
+    ├── constants/
+    ├── types/
+    ├── sdk/
+    └── utils/
